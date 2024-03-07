@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Account settings</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <!--Code for the login and security goes here-->
+            <div class="container-1">
+                <div class="head">
+                    <div class="img">
+                        <img src="img/guard.svg" alt="security-star logo" />
+                    </div>
+                    <div class="head-text">
+                        <h2>Login and security</h2>
+                        <p>Add or remove email addresses on your account.</p>
+                    </div>
+                </div>
+
+                <div class="login-form">
+                    <form action="POST">
+                        <label for="email">Email addresses</label><br />
+                        <input
+                            type="text"
+                            id="email-1"
+                            placeholder="johnjohnson@gmail.com"
+                        /><br />
+                        <input
+                            class="input-text-2"
+                            type="text"
+                            id="email-2"
+                            placeholder="johnjohnson@gmail.com"
+                        /><br />
+                        <label class="add-email"
+                            ><span>&plus;</span> Add email addresses</label
+                        >
+                    </form>
+                </div>
+            </div>
+
+            <!--Code for phone numbers-->
+            <div class="container-2">
+                <div class="head">
+                    <div class="img">
+                        <img src="img/phone.svg" alt="smartphone image" />
+                    </div>
+                    <div class="head-text">
+                        <h2>Phone numbers</h2>
+                        <p>
+                            Add a phone numbers in case you have trouble signing
+                            in.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="phone-text">
+                    <h4>You haven't added any phone number yet.</h4>
+                    <p>
+                        Your phone number helps us keep your account secure .it
+                        also helps people who already have your number discover
+                        and connect with you.
+                    </p>
+                </div>
+                <label class="add-email"
+                    ><span>&plus;</span> Add email addresses</label
+                >
+            </div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
